@@ -1,5 +1,5 @@
 ---
-title: "Simple document"
+title: "HomeWork 2_Updated"
 output: html_document
 ---
 
@@ -11,11 +11,14 @@ Here's a **code chunk** that samples from
 a _normal distribution_:
 
 ```{r}
-samp = rnorm(100)
-length(samp)
+library(tidyverse)
+library(readxl)
+```
+```{r}
+path_to_data = "./data/Trash-Wheel-Collection-Totals-8-19.xlsx"
 ```
 
 # Section 2
 
 I can take the mean of the sample, too!
-The mean is `r mean(samp)`.
+The mean is .
